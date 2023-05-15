@@ -1,0 +1,2 @@
+# Before installing Vincent OS
+
