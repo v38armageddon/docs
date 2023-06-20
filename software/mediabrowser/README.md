@@ -1,6 +1,5 @@
 ---
-cover: >-
-  ../../.gitbook/assets/apps.38361.14249833251585149.ffec6048-2519-408c-af3e-a9e71a25bd43.png
+cover: ../../.gitbook/assets/Banniière mreddit.png
 coverY: 0
 ---
 
