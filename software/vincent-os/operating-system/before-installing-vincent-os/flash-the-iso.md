@@ -18,7 +18,7 @@ If you are on Windows:\
 Download Rufus and launch from your system, chose the periphecal of your external device and select the Vincent OS ISO by clicking on the button: SELECTION, after, click on: START. Select the ISO method and wait.\
 \
 If you are on Linux:\
-You can use GNOME Disk for flashing the ISO in your external device. It's the safest and recommented method if you don't want be risky. On GNOME Disk, select your device, click on hamburger button and select: Restore disk image. Select the Vincent OS ISO and wait (you need to enter your password befor GNOME Disk start).
+You can use GNOME Disk for flashing the ISO in your external device. It's the safest and recommented method if you don't want be risky. On GNOME Disk, select your device, click on hamburger button and select: Restore disk image. Select the Vincent OS ISO and wait (you need to enter your password before GNOME Disk start).
 
 {% hint style="danger" %}
 **All your data in you external device will be erased, make sure to backup your data!**
