@@ -1,5 +1,7 @@
 # Flash the ISO
 
+### Classic Method
+
 After choosing a ISO, you need:
 
 * The Vincent OS ISO
@@ -25,3 +27,11 @@ You can use GNOME Disk for flashing the ISO in your external device. It's the sa
 {% endhint %}
 
 After flashing your devince, reboot your computer and boot on the device. Check the manual on your motherboard how to change the boot order.
+
+
+
+***
+
+### Ventoy Method
+
+You can drag and drop the Vincent OS ISO into your Ventoy USB Stick, make sure you have the latest version of Ventoy to avoid problems.

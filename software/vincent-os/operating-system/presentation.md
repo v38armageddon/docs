@@ -8,7 +8,3 @@ There are multiples features:
 * Custom Kernel
 * Windows / Linux compatibility
 * Unique desktop
-
-{% hint style="info" %}
-The Vincent OS Desktop is named: VinDesk
-{% endhint %}
