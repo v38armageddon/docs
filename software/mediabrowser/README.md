@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/Banniière mreddit (1).png
+cover: ../../.gitbook/assets/banner mreddit.png
 coverY: 0
 ---
 
