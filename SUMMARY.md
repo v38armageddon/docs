@@ -2,22 +2,23 @@
 
 * [Welcome to the official v38armageddon's Docs!](README.md)
 
+## Vincent OS
+
+* [Presentation](vincent-os/presentation.md)
+* [Vincent OS Versions](vincent-os/vincent-os-versions.md)
+* [Before installing Vincent OS](vincent-os/before-installing-vincent-os/README.md)
+  * [Choosing a version](vincent-os/before-installing-vincent-os/choosing-a-version.md)
+  * [Flash the ISO](vincent-os/before-installing-vincent-os/flash-the-iso.md)
+* [Install the OS](vincent-os/install-the-os/README.md)
+  * [Vincent OS](vincent-os/install-the-os/vincent-os/README.md)
+    * [TODO](vincent-os/install-the-os/vincent-os/todo.md)
+  * [Vincent OS Legacy](vincent-os/install-the-os/vincent-os-legacy/README.md)
+    * [TODO](vincent-os/install-the-os/vincent-os-legacy/todo.md)
+* [Troubleshooting](vincent-os/troubleshooting/README.md)
+  * [SysRq Method](vincent-os/troubleshooting/sysrq-method.md)
+
 ## Software
 
-* [Vincent OS](software/vincent-os/README.md)
-  * [Operating System](software/vincent-os/operating-system/README.md)
-    * [Presentation](software/vincent-os/operating-system/presentation.md)
-    * [Vincent OS Versions](software/vincent-os/operating-system/vincent-os-versions.md)
-    * [Before installing Vincent OS](software/vincent-os/operating-system/before-installing-vincent-os/README.md)
-      * [Choosing a version](software/vincent-os/operating-system/before-installing-vincent-os/choosing-a-version.md)
-      * [Flash the ISO](software/vincent-os/operating-system/before-installing-vincent-os/flash-the-iso.md)
-    * [Install the OS](software/vincent-os/operating-system/install-the-os/README.md)
-      * [Vincent OS](software/vincent-os/operating-system/install-the-os/vincent-os/README.md)
-        * [TODO](software/vincent-os/operating-system/install-the-os/vincent-os/todo.md)
-      * [Vincent OS Legacy](software/vincent-os/operating-system/install-the-os/vincent-os-legacy/README.md)
-        * [TODO](software/vincent-os/operating-system/install-the-os/vincent-os-legacy/todo.md)
-    * [Troubleshooting](software/vincent-os/operating-system/troubleshooting/README.md)
-      * [SysRq Method](software/vincent-os/operating-system/troubleshooting/sysrq-method.md)
 * [WebSM](software/websm/README.md)
   * [WebSM Versions](software/websm/websm-versions.md)
   * [Functionality](software/websm/functionality/README.md)
