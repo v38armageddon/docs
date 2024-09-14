@@ -5,4 +5,4 @@ coverY: 0
 
 # WebSM
 
-Here you can find documentations about WebSM and how it work.
+Welcome to WebSM! Our minimalist web browser offers simplicity and ease of use. Explore our documentation to learn more about how WebSM works.

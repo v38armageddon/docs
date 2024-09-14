@@ -26,9 +26,7 @@ You can use GNOME Disk for flashing the ISO in your external device. It's the sa
 **All your data in you external device will be erased, make sure to backup your data!**
 {% endhint %}
 
-After flashing your devince, reboot your computer and boot on the device. Check the manual on your motherboard how to change the boot order.
-
-
+After flashing your device, reboot your computer and boot on the device. Check the manual on your motherboard how to change the boot order.
 
 ***
 

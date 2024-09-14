@@ -6,6 +6,12 @@ SysRq call directly in the kernel and therefore, you must not use this combinati
 With a little mistake manipulation, you can loose all your unsaved work!
 {% endhint %}
 
+{% hint style="info" %}
+Difficulty level:
+
+:star::star::star:
+{% endhint %}
+
 If your system become unresponcive, you can use SysRq to perform kernel level actions to troubleshoot your system.
 
 ### Activation
