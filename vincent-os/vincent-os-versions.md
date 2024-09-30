@@ -2,7 +2,7 @@
 
 Vincent OS let you choose between 2 versions of the Operating System:
 
-1. The normal version for all purposes
+1. The Standard version for all purposes
 2. The Legacy version for old computers
 
 Here is a table that compares the different advantages and disadvantages of the different versions
