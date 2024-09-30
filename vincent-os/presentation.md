@@ -25,7 +25,7 @@ Welcome to the Vincent OS Documentation, you can find several information about 
 This documentation is still work in progress!
 {% endhint %}
 
-Vincent OS is a Operating System based on Arch and Debian, it was created by v38armageddon.
+Vincent OS is a Operating System based on Arch, it was created by v38armageddon.
 
 There are multiples features:
 
