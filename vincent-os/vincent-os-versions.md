@@ -13,7 +13,7 @@ Here is a table that compares the different advantages and disadvantages of the 
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
 | Optimized for powerful PC / Laptop                            | Ideal for older PC / Laptop                                |
 | Fully Secured (ClamAV, Flatpak, KLP)                          | Secured (ClamAV)                                           |
-| Based on Arch (Vincent OS Kernel)                             | Based on Arch (Linux LTS Kernel)                           |
+| Based on Arch (Linux Zen Kernel)                              | Based on Arch (Linux LTS Kernel)                           |
 | Optimized for executing Windows application via Wine / Proton | Optional support for running Windows applications via Wine |
 
 ### Disavantages
@@ -23,3 +23,4 @@ Here is a table that compares the different advantages and disadvantages of the 
 | Can be hard to troubleshoot.                               | Not recommended for peoples won't / who never touched a Linux Distro |
 | Can break if you messed up configurations files            | Can break if you messed up configurations files                      |
 | Compatibility with all Windows applications not guaranteed | Compatibility with all Windows applications not guaranteed           |
+
