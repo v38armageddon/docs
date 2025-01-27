@@ -1,11 +1,5 @@
 # NVIDIA: Black screen after an update
 
-{% hint style="warning" %}
-This page will concern only the following version:
-
-Vincent OS
-{% endhint %}
-
 {% hint style="info" %}
 Difficulty level:&#x20;
 

@@ -29,7 +29,7 @@ Vincent OS is a Operating System based on Arch, it was created by v38armageddon.
 
 There are multiples features:
 
-* Two versions of Vincent OS:
+* Two editions of Vincent OS:
   * Vincent OS, for normal uses.
   * Vincent OS Legacy, for old computers.
 * Windows / Linux compatibility.
