@@ -18,13 +18,13 @@ If your system become unresponcive, you can use SysRq to perform kernel level ac
 
 By default, all versions of Vincent OS have SysRq enabled. You can verify if SysRq is activated by opening a terminal and enter this command:
 
-Vincent OS Versions:
+Vincent OS Standard Edition:
 
 ```powershell
 PS> Get-Content /proc/sys/kernel/sysrq
 ```
 
-Vincent OS Legacy Versions:
+Vincent OS Legacy Edition:
 
 ```bash
 $ cat /proc/sys/kernel/sysrq
@@ -32,9 +32,9 @@ $ cat /proc/sys/kernel/sysrq
 
 If there is other values returned than `1`, enable the SysRq via the command:
 
-All Vincent OS Versions:
+Vincent OS All Editions:
 
-```
+```sh
 sudo sysctl kernel.sysrq=1
 ```
 

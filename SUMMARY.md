@@ -34,7 +34,7 @@
     * [Summary](vincent-os/install-the-os/vincent-os-legacy/summary.md)
     * [Install](vincent-os/install-the-os/vincent-os-legacy/install.md)
     * [Post-install](vincent-os/install-the-os/vincent-os-legacy/post-install.md)
-* [Kernel LivePatch](vincent-os/kernel-livepatch.md)
+* [Core LivePatch](vincent-os/core-livepatch.md)
 * [Troubleshooting](vincent-os/troubleshooting/README.md)
   * [NVIDIA: Black screen after an update](vincent-os/troubleshooting/nvidia-black-screen-after-an-update.md)
   * [SysRq Method](vincent-os/troubleshooting/sysrq-method.md)

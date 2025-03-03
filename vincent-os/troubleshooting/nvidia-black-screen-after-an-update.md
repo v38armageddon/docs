@@ -11,17 +11,25 @@ In case of a NVIDIA driver update and after reboot, you only see a black screen,
 1. Open a Terminal
 2. Go to `/var/cache/pacman/pkg` by typing the following command:
 
+Vincent OS Standard Edition:
+
 ```powershell
 PS> Set-Location /var/cache/pacman/pkg
 ```
 
-3.  Now, lookup the correct package to downgrade, there are 3 to view:
+Vincent OS Legacy Edition:
 
-    * nvidia-dkms
-    * nvidia-utils
-    * nvidia-settings
+```bash
+$ cat /var/cache/pacman/pkg
+```
 
-    You can search the version to downgrade by going on the following websites:
+3. Now, lookup the correct package to downgrade, there are 3 to view:
+
+* nvidia-dkms
+* nvidia-utils
+* nvidia-settings
+
+You can search the version to downgrade by going on the following websites:
 
 {% embed url="https://gitlab.archlinux.org/archlinux/packaging/packages/nvidia-utils/-/commits/main" %}
 GitLab website for the NVIDIA Utils package
@@ -29,8 +37,10 @@ GitLab website for the NVIDIA Utils package
 
 4. Now that you located the version, type the following command:
 
-```powershell
-PS> sudo pacman -U nvidia-dkms.123-4 nvidia-utils.123-4 nvidia-settings.123-4
+Vincent OS All Editions:
+
+```sh
+sudo pacman -U nvidia-dkms.123-4 nvidia-utils.123-4 nvidia-settings.123-4
 ```
 
 5. Reboot the system when finished.
