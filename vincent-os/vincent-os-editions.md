@@ -12,7 +12,7 @@ Here is a table that compares the different advantages and disadvantages of the 
 | Vincent OS                                                    | Vincent OS Legacy                                          |
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
 | Optimized for powerful PC / Laptop                            | Ideal for older PC / Laptop                                |
-| Fully Secured (ClamAV, Flatpak, KLP)                          | Secured (ClamAV)                                           |
+| Fully Secured (ClamAV, Flatpak, CLP)                          | Secured (ClamAV)                                           |
 | Based on Arch (Zen Kernel)                                    | Based on Arch (LTS Kernel)                                 |
 | Optimized for executing Windows application via Wine / Proton | Optional support for running Windows applications via Wine |
 
