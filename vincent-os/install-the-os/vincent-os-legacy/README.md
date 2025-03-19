@@ -1,2 +1,0 @@
-# Vincent OS Linux version
-

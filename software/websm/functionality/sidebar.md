@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Sidebar
 
 The sidebar is a little navigator, it is used essentially for executing websites that can be played on background (eg: Spotify).\

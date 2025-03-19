@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # WebSM Versions
 
 {% tabs %}
@@ -13,7 +27,7 @@ WebSM on Microsoft Store
 #### Functionality
 
 * **Microsoft WebView2**: WebSM for Windows is based on Microsoft WebView2 which is based on Microsoft Edge.
-* **Minimalist**: WebSM for Windows is designed to be minimalist and simple for the users, only the basic search and favorite options are here, no more no less.
+* **Minimalist**: WebSM for Windows is designed to be minimalist and simple for the users, only the basic search here, no more no less.
 * [**Sidebar**](functionality/sidebar.md): A Sidebar for quick search or even, listening to music.
 
 **System Requirements for Windows**
