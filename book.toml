@@ -1,0 +1,10 @@
+[book]
+authors = ["v38armageddon"]
+language = "en"
+src = "src"
+title = "v38armageddon Docs"
+description = "Official documentation for all v38armageddon projects"
+
+[output.html]
+git-repository-url = "https://github.com/v38armageddon/docs"
+git-repository-icon = "fa-github"
