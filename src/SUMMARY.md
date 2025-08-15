@@ -7,9 +7,7 @@
 # Vincent OS
 
 - [Presentation](vincent-os/presentation.md)
-- [Vincent OS Editions](vincent-os/vincent-os-editions.md)
 - [Before installing Vincent OS]()
-  - [Choosing a edition](vincent-os/before-installing-vincent-os/choosing-a-edition.md)
   - [Flash the ISO](vincent-os/before-installing-vincent-os/flash-the-iso.md)
 - [Core LivePatch](vincent-os/core-livepatch.md)
 - [Troubleshooting]()

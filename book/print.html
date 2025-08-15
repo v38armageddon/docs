@@ -197,32 +197,46 @@
 <li>ClamAV integration for enhanced security.</li>
 <li>Linux-zen as the default kernel for improved performance.</li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="vincent-os-editions"><a class="header" href="#vincent-os-editions">Vincent OS Editions</a></h1>
-<p>Vincent OS let you choose between 2 editions of the Operating System:</p>
-<ol>
-<li>The Standard Edition for all purposes</li>
-<li>The Legacy Edition for old computers</li>
-</ol>
-<p>Here is a table that compares the different advantages and disadvantages of the different editions</p>
-<h3 id="advantages"><a class="header" href="#advantages">Advantages</a></h3>
-<div class="table-wrapper"><table><thead><tr><th>Vincent OS</th><th>Vincent OS Legacy</th></tr></thead><tbody>
-<tr><td>Optimized for powerful PC / Laptop</td><td>Ideal for older PC / Laptop</td></tr>
-<tr><td>Fully Secured (ClamAV, Flatpak, CLP)</td><td>Secured (ClamAV)</td></tr>
-<tr><td>Based on Arch (Zen Kernel)</td><td>Based on Arch (LTS Kernel)</td></tr>
-<tr><td>Optimized for executing Windows application via Wine / Proton</td><td>Optional support for running Windows applications via Wine</td></tr>
-</tbody></table>
-</div>
-<h3 id="disadvantages"><a class="header" href="#disadvantages">Disadvantages</a></h3>
-<p>{% hint style="info" %}
-The list is represented for both editions
-{% endhint %}</p>
-<ul>
-<li>Can be hard to troubleshoot.</li>
-<li>Can break if you messed up configurations files.</li>
-<li>Compatibility with all Windows Applications is not guaranteed</li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="choosing-a-edition"><a class="header" href="#choosing-a-edition">Choosing a edition</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="flash-the-iso"><a class="header" href="#flash-the-iso">Flash the ISO</a></h1>
+<h2 id="classic-method"><a class="header" href="#classic-method">Classic Method</a></h2>
+<p>After downloading the ISO, you need:</p>
+<ul>
+<li>A external device for the ISO</li>
+<li>Rufus (if you are on Windows)</li>
+<li>Enough storage space for Vincent OS</li>
+<li><strong>Backup all your personal data in a external device and/or a cloud!</strong></li>
+</ul>
+<div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
+<div class="admonition-title">
+<div id="admonition-warning-title">
+<p>Warning</p>
+</div>
+<a class="admonition-anchor-link" href="vincent-os/before-installing-vincent-os/flash-the-iso.html#admonition-warning"></a>
+</div>
+<div>
+<p>Make sure the Secure Boot of your computer is disabled, otherwise, Vincent OS won't boot.</p>
+<p>Check the manual page of your motherboard how to disable.</p>
+</div>
+</div>
+<p>If you are on Windows:<br />
+Download Rufus and launch from your system, chose the peripheral of your external device and select the Vincent OS ISO by clicking on the button: SELECTION, after, click on: START. Select the ISO method and wait.</p>
+<p>If you are on Linux:<br />
+You can use GNOME Disk for flashing the ISO in your external device. It's the safest and recommended method if you don't want be risky. On GNOME Disk, select your device, click on hamburger button and select: Restore disk image. Select the Vincent OS ISO and wait (you need to enter your password before GNOME Disk start).</p>
+<div id="admonition-danger" class="admonition admonish-danger" role="note" aria-labelledby="admonition-danger-title">
+<div class="admonition-title">
+<div id="admonition-danger-title">
+<p>Danger</p>
+</div>
+<a class="admonition-anchor-link" href="vincent-os/before-installing-vincent-os/flash-the-iso.html#admonition-danger"></a>
+</div>
+<div>
+<p><strong>All your data in you external device will be erased, make sure to backup your data!</strong></p>
+</div>
+</div>
+<p>After flashing your device, reboot your computer and boot on the device. Check the manual on your motherboard how to change the boot order.</p>
+<hr />
+<h2 id="ventoy-method"><a class="header" href="#ventoy-method">Ventoy Method</a></h2>
+<p>You can drag and drop the Vincent OS ISO into your Ventoy USB Stick, make sure you have the latest version of Ventoy to avoid problems.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="core-livepatch"><a class="header" href="#core-livepatch">Core LivePatch</a></h1>
 <div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
 <div class="admonition-title">
@@ -366,16 +380,129 @@ Core LivePatch (abbreviated to CLP) allows you to update critical Vincent OS par
 <li><a href="https://wiki.archlinux.org/title/Keyboard_shortcuts#Kernel_(SysRq)">ArchLinux Wiki Keyboard Shortcut</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Magic_SysRq_key#Commands">Wikipedia Magic SysRq key</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="websm"><a class="header" href="#websm">WebSM</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="software/websm/../../assets/websm/banner%20websm.png" alt="Cover" /></p>
+<h1 id="websm"><a class="header" href="#websm">WebSM</a></h1>
+<p>Welcome to WebSM! Our minimalist web browser offers simplicity and ease of use. Explore our documentation to learn more about how WebSM works.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="websm-versions"><a class="header" href="#websm-versions">WebSM Versions</a></h1>
+<h3 id="websm-on-windows"><a class="header" href="#websm-on-windows">WebSM on Windows</a></h3>
+<p>WebSM on Windows is the first version available on the Microsoft Store.</p>
+<script type="module" src="https://get.microsoft.com/badge/ms-store-badge.bundled.js"></script>
+<p><ms-store-badge
+	productid="9nvmbh7w0hxf"
+	cid="v38armageddon-docs"
+	window-mode="full"
+	theme="auto"
+	size="large"
+	language="fr"
+	animation="on">
+</ms-store-badge></p>
+<h4 id="functionality"><a class="header" href="#functionality">Functionality</a></h4>
+<ul>
+<li><strong>Microsoft WebView2</strong>: WebSM for Windows is based on Microsoft WebView2 which is based on Microsoft Edge.</li>
+<li><strong>Minimalist</strong>: WebSM for Windows is designed to be minimalist and simple for the users, only the basic search here, no more no less.</li>
+<li><a href="software/websm/functionality/sidebar.html"><strong>Sidebar</strong></a>: A Sidebar for quick search or even, listening to music.</li>
+</ul>
+<p><strong>System Requirements for Windows</strong></p>
+<ul>
+<li>Operating System: Windows 10 version 19041.0 or higher</li>
+<li>Architecture: x64</li>
+<li>RAM: 1 gigabyte (GB) minimum, 2 GB recommended</li>
+<li>Hard Disk Space: At least 32.4 MB of available disk space</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="sidebar"><a class="header" href="#sidebar">Sidebar</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="mediabrowser"><a class="header" href="#mediabrowser">MediaBrowser</a></h1>
+<p>The sidebar is a little navigator, it is used essentially for executing websites that can be played on background (eg: Spotify).</p>
+<p>You can also use this bar doing a quick search without opening another tabs.
+<img src="software/websm/functionality/../../../assets/websm/WebSM%20Sidebar.png" alt="WebSM Sidebar" /></p>
+<div style="break-before: page; page-break-before: always;"></div><p><img src="software/mediabrowser/../../assets/mediabrowser/banner%20mediabrowser.png" alt="Cover" /></p>
+<h1 id="mediabrowser"><a class="header" href="#mediabrowser">MediaBrowser</a></h1>
+<p>Here you can find several informations about MediaBrowser.</p>
+<p>Theses informations can be used for tutorial or even knowing the functionality of the software.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="tasks"><a class="header" href="#tasks">Tasks</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="pictures"><a class="header" href="#pictures">Pictures</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="music"><a class="header" href="#music">Music</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="videos"><a class="header" href="#videos">Videos</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="extras"><a class="header" href="#extras">Extras</a></h1>
-
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Description</th></tr></thead><tbody>
+<tr><td>Exit</td><td>Exit the software</td></tr>
+<tr><td>About</td><td>Give information about MediaBrowser</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="pictures"><a class="header" href="#pictures">Pictures</a></h1>
+<div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
+<div class="admonition-title">
+<div id="admonition-warning-title">
+<p>Warning</p>
+</div>
+<a class="admonition-anchor-link" href="software/mediabrowser/functionality/pictures.html#admonition-warning"></a>
+</div>
+<div>
+<p>You need to give the following permissions to the apps:</p>
+<ul>
+<li>Pictures</li>
+<li>Camera</li>
+</ul>
+</div>
+</div>
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Description</th></tr></thead><tbody>
+<tr><td>My Pictures</td><td>Allow to show pictures from your local files (Windows / Xbox) and network files (Windows only)</td></tr>
+<tr><td>Camera</td><td>Allow to show your camera</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="music"><a class="header" href="#music">Music</a></h1>
+<div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
+<div class="admonition-title">
+<div id="admonition-warning-title">
+<p>Warning</p>
+</div>
+<a class="admonition-anchor-link" href="software/mediabrowser/functionality/music.html#admonition-warning"></a>
+</div>
+<div>
+<p>You need to give the following permissions to the apps:</p>
+<ul>
+<li>Music</li>
+</ul>
+</div>
+</div>
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Description</th></tr></thead><tbody>
+<tr><td>My Music</td><td>Allow to listen to musics from your local files (Windows / Xbox) and network files (Windows only)</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="videos"><a class="header" href="#videos">Videos</a></h1>
+<div id="admonition-warning" class="admonition admonish-warning" role="note" aria-labelledby="admonition-warning-title">
+<div class="admonition-title">
+<div id="admonition-warning-title">
+<p>Warning</p>
+</div>
+<a class="admonition-anchor-link" href="software/mediabrowser/functionality/videos.html#admonition-warning"></a>
+</div>
+<div>
+<p>You need to give the following permissions to the apps:</p>
+<ul>
+<li>Video</li>
+</ul>
+</div>
+</div>
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Description</th></tr></thead><tbody>
+<tr><td>My Videos</td><td>Allow to watch your videos from your local files (Windows / Xbox) and network files (Windows only)</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="extras"><a class="header" href="#extras">Extras</a></h1>
+<div id="admonition-info" class="admonition admonish-info" role="note" aria-labelledby="admonition-info-title">
+<div class="admonition-title">
+<div id="admonition-info-title">
+<p>Info</p>
+</div>
+<a class="admonition-anchor-link" href="software/mediabrowser/functionality/extras.html#admonition-info"></a>
+</div>
+<div>
+<p>More Extras can coming in the future.</p>
+</div>
+</div>
+<div class="table-wrapper"><table><thead><tr><th>Title</th><th>Description</th></tr></thead><tbody>
+<tr><td>Bing Maps</td><td>Allow to watch a map of the world</td></tr>
+</tbody></table>
+</div>
+<h2 id="controls-for-xbox-users"><a class="header" href="#controls-for-xbox-users">Controls for Xbox users</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Control</th><th>Description</th></tr></thead><tbody>
+<tr><td>A</td><td>Enter to Bing Map</td></tr>
+<tr><td>B</td><td>Exit the Bing Map</td></tr>
+<tr><td>LT</td><td>Zoom</td></tr>
+<tr><td>RT</td><td>Unzoom</td></tr>
+<tr><td>Left Stick</td><td>Move the map</td></tr>
+</tbody></table>
+</div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
