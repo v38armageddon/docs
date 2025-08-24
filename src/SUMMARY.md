@@ -8,7 +8,12 @@
 
 - [Presentation](vincent-os/presentation.md)
 - [Before installing Vincent OS]()
+  - [System Requirements](vincent-os/before-installing-vincent-os/system-requirements.md)
+  - [Download the ISO](vincent-os/before-installing-vincent-os/download-the-iso.md)
   - [Flash the ISO](vincent-os/before-installing-vincent-os/flash-the-iso.md)
+- [Installation](vincent-os/installation/installation.md)
+  - [Installation Steps](vincent-os/installation/installation-steps.md)
+  - [Post Installation](vincent-os/installation/post-installation.md)
 - [Core LivePatch](vincent-os/core-livepatch.md)
 - [Troubleshooting]()
   - [NVIDIA: Black screen after an update](vincent-os/troubleshooting/nvidia-black-screen-after-an-update.md)
