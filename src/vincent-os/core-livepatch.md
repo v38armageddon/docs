@@ -25,16 +25,4 @@ All patches are distributed in a `.clp` format, designed specifically for Vincen
 If necessary, you can rollback a Core LivePatch update if some file / package break your system.
 ```
 
-## Comparison with other live patching solutions
-This is a list of live partching solutions and their key differences:
-| Feature | Core LivePatch | kpatch | Canonical Livepatch |
-|---------|----------------|--------|---------------------|
-| Kernel Patch |  ❌ |  ✅ |  ✅ |
-| Patch system configuration files |  ✅ |  ❌ |  ❌ |
-| Revert patch |  ✅ |  ⚠️ |  ⚠️ |
-| Supported OS |  Vincent OS |  RHEL / CentOS |  Ubuntu |
-| Portability |  ⚠️ PowerShell only |  ❌ |  ❌ |
-| Does not require a reboot |  ✅ |  ✅ |  ✅ |
-
-----
 Source code of Core LivePatch can be found in the [Vincent OS GitHub repository](https://github.com/Vincent-OS/clpctl).

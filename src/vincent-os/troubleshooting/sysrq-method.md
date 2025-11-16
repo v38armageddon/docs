@@ -13,19 +13,16 @@ Difficulty level: ⭐⭐⭐
 If your system become unresponcive, you can use SysRq to perform kernel level actions to troubleshoot your system.
 
 ### Activation
-
-By default, all versions of Vincent OS have SysRq enabled. You can verify if SysRq is activated by opening a terminal and enter this command:
-
-Vincent OS Standard Edition:
+You can verify if SysRq is activated by opening a terminal and enter this command:
 
 ```powershell
-PS> Get-Content /proc/sys/kernel/sysrq
+Get-Content /proc/sys/kernel/sysrq
 ```
 
 If there is other values returned than `1`, enable the SysRq via the command:
 
 ```sh
-# sysctl kernel.sysrq=1
+sysctl kernel.sysrq=1
 ```
 
 ### REISUB Method
