@@ -16,6 +16,7 @@
   - [Post Installation](vincent-os/installation/post-installation.md)
 - [Core LivePatch](vincent-os/core-livepatch.md)
 - [Troubleshooting]()
+  - [Before Troubleshooting](vincent-os/troubleshooting/before-troubleshooting.md)
   - [NVIDIA: Black screen after an update](vincent-os/troubleshooting/nvidia-black-screen-after-an-update.md)
   - [SysRq Method](vincent-os/troubleshooting/sysrq-method.md)
 

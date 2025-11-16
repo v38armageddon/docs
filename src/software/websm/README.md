@@ -1,3 +1,5 @@
 ![Cover](../../assets/websm/banner%20websm.png)
 # WebSM
-Welcome to WebSM! Our minimalist web browser offers simplicity and ease of use. Explore our documentation to learn more about how WebSM works.
+Welcome to WebSM! WebSM is a minimalist, simple web browser that has to goal to not be complicated and be accessible to everyone.
+
+This documentation explains how WebSM works.

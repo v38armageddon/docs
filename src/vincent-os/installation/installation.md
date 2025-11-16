@@ -12,8 +12,16 @@ Once you have created the LiveCD, insert it into your computer and reboot.
 You may need to change the boot order in your BIOS/UEFI settings to boot from the USB Stick first.
 
 ### Boot from LiveCD
-When the system starts, you should see the Vincent OS boot menu. Select the following option: ``Vincent OS LiveCD``.
+When the system starts, you should see the Vincent OS boot menu. There are two options available:
+1. **Vincent OS Installation**: This option will start the installation process directly.
+2. **Vincent OS LiveCD**: This option will boot into the LiveCD environment, allowing you to try Vincent OS before installing it.
 
+#### Installation
+You will boot directly into the Vincent OS Installer without entering on the desktop.
+
+You can begin the [installation process](installation-steps.md).
+
+#### LiveCD
 If you saw the login desktop, you have successfully booted into the LiveCD environment!
 
 The default login credentials are as follows:
