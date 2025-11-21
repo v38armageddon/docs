@@ -16,12 +16,12 @@ For specific versions support (Open Beta), the support timeline may differ. Plea
 ## Supported versions
 | Edition | Version | Architecture |
 |---------|---------|--------------|
+| Vincent OS Standard | 1.1 | x86_64 |
 | Vincent OS Standard | 1.0 Open Beta | x86_64 |
 
 ## Upcoming versions
 | Edition | Version | Architecture |
 |---------|---------|--------------|
-| Vincent OS Standard | 1.1 | x86_64 |
 
 ## Discontinued versions
 | Edition | Version | Architecture |
