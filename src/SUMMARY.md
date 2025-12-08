@@ -19,6 +19,7 @@
   - [Before Troubleshooting](vincent-os/troubleshooting/before-troubleshooting.md)
   - [NVIDIA: Black screen after an update](vincent-os/troubleshooting/nvidia-black-screen-after-an-update.md)
   - [SysRq Method](vincent-os/troubleshooting/sysrq-method.md)
+  - [Updating with pacman failed due to keyring issues](vincent-os/troubleshooting/updating-with-pacman-failed-due-to-keyring-issues.md)
 
 ---
 

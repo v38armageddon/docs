@@ -1,7 +1,7 @@
 # Installation Steps
 You are now ready to begin the installation process. Follow the steps below to install Vincent OS on your system:
 
-## Step 1: Start the Installer
+## Step 1: Start the Installer (if your are on LiveCD)
 From the desktop environment, go to the start menu and go to the following location:\
 ``System -> Install System``
 
