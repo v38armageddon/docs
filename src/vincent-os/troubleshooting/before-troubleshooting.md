@@ -10,7 +10,7 @@ Searching also for keywords related on your issue might help you find a solution
 Vincent OS is based on Arch Linux, so most solutions for Arch Linux will also work for Vincent OS.
 ```
 
-When asking for help, you can generate all your issue by including a log file. To do so, run the following command in a terminal:
+When asking for help, you can generate a log file. To do so, run the following command in a terminal:
 
 ```powershell
 Start-Transcript -Path your_log_file.log

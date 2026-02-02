@@ -19,6 +19,7 @@
   - [Before Troubleshooting](vincent-os/troubleshooting/before-troubleshooting.md)
   - [NVIDIA: Black screen after an update](vincent-os/troubleshooting/nvidia-black-screen-after-an-update.md)
   - [SysRq Method](vincent-os/troubleshooting/sysrq-method.md)
+  - [Updating with pacman failed due to keyring issues](vincent-os/troubleshooting/updating-with-pacman-failed-due-to-keyring-issues.md)
 
 ---
 
@@ -28,6 +29,9 @@
   - [WebSM Versions](software/websm/websm-versions.md)
   - [Functionality]()
     - [Sidebar](software/websm/functionality/sidebar.md)
+  - [Troubleshooting]()
+    - [Before Troubleshooting](software/websm/troubleshooting/before-troubleshooting.md)
+    - [[Vincent OS | Linux] WebSM does not start](software/websm/troubleshooting/linux-websm-does-not-start.md)
 - [MediaBrowser](software/mediabrowser/README.md)
   - [Functionality]()
     - [Tasks](software/mediabrowser/functionality/tasks.md)
