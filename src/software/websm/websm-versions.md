@@ -24,11 +24,16 @@ pacman -S websm
 ```
 
 #### Other distributions
-You can download the Flatpak version of WebSM from Flathub.
+You can download the Flatpak version of WebSM from or official Flatpak repository.
 
-<a href='https://flathub.org/apps/net.v38armageddon.WebSM'>
-    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
+```bash
+flatpak remote-add  --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
+```
+
+Then, you can install WebSM using the following command:
+```bash
+flatpak install net.v38armageddon.WebSM
+```
 
 ### Android (Experimental)
 While we want to push support on mobile devices, stability is not yet guaranteed. You can download the APK from the latest release on [GitHub](https://github.com/v38armageddon/WebSM/releases).
@@ -68,11 +73,16 @@ pacman -S websm-lite
 ```
 
 #### Other distributions
-You can download the Flatpak version of WebSM Lite from Flathub.
+You can download the Flatpak version of WebSM Lite from or official Flatpak repository.
 
-<a href='https://flathub.org/apps/details/net.v38armageddon.WebSM.Lite'>
-	<img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
+```bash
+flatpak remote-add  --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
+```
+
+Then, you can install WebSM Lite using the following command:
+```bash
+flatpak install net.v38armageddon.WebSM.Lite
+```
 
 ### Android (Experimental)
 While we want to push support on mobile devices, stability is not yet guaranteed. You can download the APK from the latest release on [GitHub](https://github.com/v38armageddon/WebSM/releases).
