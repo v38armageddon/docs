@@ -16,7 +16,7 @@ For specific versions support (Open Beta), the support timeline may differ. Plea
 ## Supported versions
 | Edition | Version | Architecture | Release Date |
 |---------|---------|--------------|--------------|
-| Vincent OS Standard | 1.2 | x86_64 | 2026-08-XX |
+| Vincent OS Standard | 1.2 | x86_64 | 2026-08-11 |
 
 ## Upcoming versions
 | Edition | Version | Architecture |
@@ -26,7 +26,7 @@ For specific versions support (Open Beta), the support timeline may differ. Plea
 | Edition | Version | Architecture | Release Date | End of Life |
 |---------|---------|--------------|--------------|-------------|
 | Vincent OS Standard | 1.0 Open Beta | x86_64 | 2025-07-05 | 2026-04-04 |
-| Vincent OS Standard | 1.1 | x86_64 | 2025-11-22 | 2026-08-XX |
+| Vincent OS Standard | 1.1 | x86_64 | 2025-11-22 | 2026-08-11 |
 
 ----
 ## Versioning scheme
