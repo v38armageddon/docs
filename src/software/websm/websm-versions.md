@@ -27,7 +27,7 @@ pacman -S websm
 You can download the Flatpak version of WebSM from or official Flatpak repository.
 
 ```bash
-flatpak remote-add  --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
+flatpak remote-add --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
 ```
 
 Then, you can install WebSM using the following command:
@@ -76,7 +76,7 @@ pacman -S websm-lite
 You can download the Flatpak version of WebSM Lite from or official Flatpak repository.
 
 ```bash
-flatpak remote-add  --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
+flatpak remote-add --if-not-exists v38armageddon https://repo.v38armageddon.net/flatpak/v38armageddon.flatpakrepo
 ```
 
 Then, you can install WebSM Lite using the following command:
